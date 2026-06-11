@@ -1,0 +1,28 @@
+# Окружение и секреты
+.env
+*.env
+env/
+venv/
+.venv/
+
+# Docker
+.dockerignore
+
+# Базы данных
+*.db
+*.sqlite3
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Среды разработки (Cursor, VS Code, JetBrains)
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
